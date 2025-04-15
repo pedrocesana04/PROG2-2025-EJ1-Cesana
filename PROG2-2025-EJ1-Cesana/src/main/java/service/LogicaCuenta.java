@@ -81,4 +81,8 @@ public final class LogicaCuenta {
         }
     }
 
+    public void agregarCuenta (Cuenta cuenta){
+        cuentas.add(cuenta);
+    }
+
 }

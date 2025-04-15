@@ -4,7 +4,7 @@ public class CajaDeAhorro extends Cuenta implements IGestionSaldo {
 
     private int Transacciones;
 
-    public CajaDeAhorro(double saldo, int id) {
+    public CajaDeAhorro(double saldo) {
         super();
         Transacciones = 0;
     }

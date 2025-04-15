@@ -5,7 +5,7 @@ public class CuentaCorriente extends Cuenta implements IGestionSaldo {
     private double GiroDescubierto;
     private int Transacciones;
 
-    public CuentaCorriente(double saldo, int id) {
+    public CuentaCorriente(double saldo) {
         super();
         Transacciones = 0;
     }
